@@ -1,0 +1,20 @@
+{
+  "name": "exercicio-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "production": "pm2 start index.js --name back-end"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^3.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
